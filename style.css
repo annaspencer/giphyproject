@@ -1,0 +1,54 @@
+html { 
+    background:  url(https://media.giphy.com/media/U3qYN8S0j3bpK/source.gif) no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'Turret Road', cursive;
+  }
+
+body {
+    
+    color:greenyellow;
+    text-align: center;
+   
+}
+
+h1 {
+    font-size: 50px;
+}
+
+input[type="submit"] {
+    margin: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid rgb(250, 72, 155);
+    background-color: rgb(247, 65, 171);
+    font-size: 16px;
+    font-family: 'Turret Road', cursive;
+    color: rgb(250, 247, 101);
+  
+}
+
+
+#gifcollection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid rgb(250, 72, 155);
+    background-color: rgb(252, 62, 179);
+    font-size: 16px;
+    font-family: 'Turret Road', cursive;
+    color: rgb(125, 247, 131);
+   
+  }
+
+  #name {
+      margin-top: 10%;
+      opacity: 50%;
+      color:lightseagreen;
+  }
