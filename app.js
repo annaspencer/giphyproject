@@ -3,7 +3,7 @@
 async function getGifByTerm(term){
      try{
         const res = await axios.get(
-            'http://api.giphy.com/v1/gifs/search', 
+            'https://api.giphy.com/v1/gifs/search', 
             { params: { api_key:'D6chJZRyXvucKGxadtFjvLTdZUNmN4Y1', q:{term} } 
         });
         let randomIdx = Math.floor(Math.random() * 25);
