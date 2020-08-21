@@ -4,7 +4,7 @@ async function getGifByTerm(term){
      try{
         const res = await axios.get(
             'http://api.giphy.com/v1/gifs/search', 
-            { params: { api_key:'D6chJZRyXvucKGxadtFjvLTdZUNmN4Y1', q:{term} } 
+            { params: { api_key:'0LupoywTwR5bEKZVbtXxtRuaM3OFMakw', q:{term} } 
         });
         let randomIdx = Math.floor(Math.random() * 25);
         let randGif = res.data.data[randomIdx].images.fixed_height.url;
